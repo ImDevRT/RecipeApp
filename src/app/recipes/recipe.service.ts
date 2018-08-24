@@ -18,7 +18,7 @@ export class RecipeService {
         new Recipe(
             'Inside Out French Toast Sandwich', 
             'Best breakfast recipe which is easy and fast to cook',
-            'http://www.landomoms.com/wp-content/uploads/2014/12/Simple-Breakfast-Sandwich-Recipes21.jpeg',
+            'https://img.taste.com.au/khB7s7_i/w643-h428-cfill-q90/taste/2017/04/strawberry-hazelnut-french-toast-sandwich_1980x1320-125523-1.jpg',
             [
                 new Ingredient('Bread',2),
                 new Ingredient('Peanut Butter',1)
