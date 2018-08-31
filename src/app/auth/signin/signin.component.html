@@ -1,3 +1,20 @@
-<p>
-  signin works!
-</p>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+        <form (ngSubmit)="onSignIn(f)" #f="ngForm">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input class="form-control" type="email" name="email" id="email" ngModel required>
+          </div>
+          <div class="form-group">
+            <label for="email">Password</label>
+            <input
+             class="form-control" 
+             type="password" 
+             name="password" 
+             id="password" 
+             ngModel required minlength="6">
+          </div>
+          <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Sign In</button>
+        </form>
+    </div>
+  </div>

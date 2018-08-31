@@ -23,6 +23,7 @@
     "adm-zip": "^0.4.11",
     "bootstrap": "^3.3.7",
     "core-js": "^2.5.4",
+    "firebase": "^5.4.1",
     "hoek": "^5.0.4",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
