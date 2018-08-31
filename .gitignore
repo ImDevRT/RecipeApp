@@ -37,5 +37,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-app.component.*
 src/app/app.component.ts
