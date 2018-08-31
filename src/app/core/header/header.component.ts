@@ -10,7 +10,7 @@ import { AuthService } from '../../auth/auth.service';
 export class HeaderComponent {
 
   constructor(private dataStorageService: DataStorageService,
-              protected authService: AuthService) {}
+              private authService: AuthService) {}
 
   onSaveData() {
     this.dataStorageService.storeRecipes()
@@ -27,6 +27,10 @@ export class HeaderComponent {
 
   onLogout() {
     this.authService.logout();
+  }
+
+  authenticationStatus() {
+    return this.authService.isAuthenticated();
   }
 
 }
