@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Live demo
+[click for demo](https://imdevrt.github.io/RecipeApp/)
+
 ## Important (app.component.ts)
 
 Use your API-key and auth-domain inorder to run project properly.
