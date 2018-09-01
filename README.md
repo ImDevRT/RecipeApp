@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Important
+## Important (app.component.ts)
 
 Use your API-key and auth-domain inorder to run project properly.
 I've used firebase as a backend. So visite firebase site, add new project and get your API-key.
